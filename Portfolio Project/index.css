@@ -1,0 +1,58 @@
+html {
+    display: flex;
+    justify-content: center;
+}
+
+body {
+    border: 1px solid purple;
+    width: 80%;
+}
+
+header {
+    border: 1px solid green;
+    display: flex;
+    justify-content: space-between;
+}
+
+header nav {
+    margin-right: 30px;
+    border: 1px solid green;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header nav ul {
+   display: flex;
+   justify-content: center;
+   border: 1px solid purple;
+   gap: 20px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+#first-third {
+    display: flex;
+    justify-content: space-between;
+}
+
+#about-me {
+    border: 1px solid red;
+    width: 60%;
+}
+
+#my-photo {
+    height: auto;
+    width: 300px;
+    margin-right: 70px;
+}
+
+#todo-list-p, #messaging-app-p {
+    display: none;
+}
